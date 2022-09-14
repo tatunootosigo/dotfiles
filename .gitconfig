@@ -1,0 +1,17 @@
+[user]
+  name = YOUR_NAME
+  email = YOUR_EMAIL_ADDRESS
+[alias]
+  fetchall = "!f(){ for i in `git remote`; do git fetch $i; done; };f"
+  st = status
+  co = checkout
+  cm = commit
+[core]
+  quotepath = false
+  editor = "/usr/bin/emacs -nw"
+[http]
+  sslverify = false
+[pager]
+  log = diff-highlight | less
+  show = diff-highlight | less
+  diff = diff-highlight | less
