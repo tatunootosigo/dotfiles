@@ -1,0 +1,10 @@
+# main viewの左端にコミットIDを表示する
+set main-view = id date author commit-title:graph=yes,refs=yes
+# デフォルト
+# set main-view = date author commit-title:graph=yes,refs=yes
+
+# 並び順を日付にする
+set commit-order = date
+
+# diff-highlightを有効化
+set diff-highlight = true
