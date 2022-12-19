@@ -213,6 +213,9 @@ alias -g G='| grep'
 
 alias glf="git ls-files"
 
+#diff
+alias diff="diff -u --color"
+
 #cdiff
 alias cdiff="cdiff -s -w $(expr $(tput cols) / 2)"
 
