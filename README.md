@@ -12,6 +12,10 @@ chsh -s /PATH/TO/ZSH
 ```
 curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh
 ```
+プラグインのインストール
+```
+zplug install
+```
 see: https://github.com/zplug/zplug#installation
 
 
