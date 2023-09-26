@@ -149,6 +149,8 @@
 
 ;; undo-tree を起動時に有効にする
 (global-undo-tree-mode t)
+;; .~undo-tree~ファイルを作成しないようにする
+(setq undo-tree-auto-save-history nil)
 
 ;; M-/ をredo に設定する。
 (global-set-key (kbd "M-/") 'undo-tree-redo)
